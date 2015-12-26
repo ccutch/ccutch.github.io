@@ -50,7 +50,7 @@
 
 	var _parse2 = _interopRequireDefault(_parse);
 
-	var _keys = __webpack_require__(77);
+	var _constants = __webpack_require__(77);
 
 	var _serviceWorker = __webpack_require__(78);
 
@@ -70,7 +70,7 @@
 
 	// Parse init
 
-	_parse2.default.initialize(_keys.parse_application_id, _keys.parse_javascript_key);
+	_parse2.default.initialize(_constants.parse_application_id, _constants.parse_javascript_key);
 
 	// Service Workers init
 
